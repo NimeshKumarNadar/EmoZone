@@ -1,0 +1,31 @@
+.App {
+  height: 100vh;
+  background-image: url('bg.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.video-container {
+  position: relative;
+  display: inline-block;
+}
+
+video {
+  width: 720px;
+  height: 560px;
+  border: 2px solid #000;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 720px;
+  height: 560px;
+  pointer-events: none;
+}
